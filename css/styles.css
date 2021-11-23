@@ -1,0 +1,59 @@
+/*цвет заголовков #212121 */
+/*цвет акцента #2196F3 */
+/*цвет текста #757575 */
+/* белый #FFFFFF */
+/* темный фон #2F303A */
+/* светлый фон #F5F4FA */
+
+:root {
+    --black: #212121 ;
+    --accent-color: #2196F3;
+    --text-color: #757575;
+    --white: #FFFFFF;
+    --dark-background: #2F303A;
+    --light-background: #F5F4FA;
+}
+body {
+    background-color: #fff;
+    color: #757575;
+    font-family: Roboto;
+} 
+ .logo {
+     color: black;
+     font-family: Raleway;
+     font-size: 26px;
+     line-height: 30,52px;
+      }   
+.list {
+    list-style: none;
+}
+
+/* Site-nav */
+.site-nav a{
+ color:var(--black)   
+}
+.site-nav a:hover,
+.site-nav a:focus {
+   color: var(--accent-color);
+}
+
+/*Connection */
+.connection a{
+    color: var(--black)
+}
+.connection a:hover, .connection a:focus {
+    color: var(--accent-color);
+}
+.button {
+    color: var(--white);
+    background-color: var(--accent-color);
+}
+/* Title */
+.title h1{
+    background-color: var(--dark-background);
+    color: var(--white);
+}
+.section-title {
+    color: var(--light-background)
+}
+/* Footer */
