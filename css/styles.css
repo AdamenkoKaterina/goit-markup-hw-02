@@ -27,12 +27,13 @@ letter-spacing: 0.03em;
      color: black;
      font-family: Raleway, cursive, sans-serif;
      font-weight: 700;
-font-size: 26px;
-line-height: 1.19; 
-letter-spacing: 0.03em;     }  
+     font-size: 26px;
+line-height: 1.19;
+text-decoration: none;
+     }  
      .logo2  {
     color: #2196F3
-}
+   }
 ul {
     list-style: none;
 }
@@ -42,25 +43,28 @@ ul {
  color:var(--black); 
  font-weight: 500;
 line-height: 1.14;
-letter-spacing: 0.02em;  
+letter-spacing: 0.02em; 
+text-decoration: none; 
+}
+.active-page {
+    color: var(--accent-color);
 }
 .site-nav a:hover,
 .site-nav a:focus {
    color: var(--accent-color);
 }
-.active-page {
-    color: var(--accent-color);
-}
+
 /*Connection */
 .connection a{
-    color: var(--black)
+    color: var(--black);
+    text-decoration: none;
 }
 .connection a:hover, .connection a:focus {
     color: var(--accent-color);
 }
 
 /* Title */
-.title h1{
+.main-title {
     background-color: var(--dark-background);
     color: var(--white);
     font-weight: 900;
@@ -82,25 +86,57 @@ text-align: center;
 letter-spacing: 0.06em;
 }
 /*Принципы*/ /*Чем мы занимаемся*/ 
-.title h2 {
+.second-title {
   color: var(--black);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   }
- .title h3 {
-     color: var(--black);
-     font-weight: 700;
-     font-size: 14px;
-     line-height: 1.14;
+ .subtitle {
+    color: var(--black);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
  }
 
 /*Наша команда*/
- .subtitle-people {
+ .title-people {
      color: var(--black);
     font-weight: 500;
     font-size: 16px;
 line-height: 1.19;
+text-align: center;
  }
+ .text {
+     color: var(--text-color);
+        font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    }
 /* Footer */
+.footer-box {
+    color: var(--white);
+    background-color: var(--dark-background);
+}
+.logo-footer {
+    color: var(--white);
+    font-family: Raleway, cursive, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+line-height: 1.19;
+text-decoration: none;
+    }  
+    .logo-footer2  {
+   color: #2196F3
+  }
+
+  .aside {
+      color: var(--white);
+      text-decoration: none;
+  }
+.aside-contacts {
+color: rgba(255, 255, 255, 0.6);
+line-height: 1.7;
+}
+
