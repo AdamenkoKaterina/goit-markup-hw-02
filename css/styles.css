@@ -46,17 +46,17 @@ line-height: 1.14;
 letter-spacing: 0.02em; 
 text-decoration: none; 
 }
-.active-page {
-    color: var(--accent-color);
-}
+
 .site-nav a:hover,
 .site-nav a:focus {
    color: var(--accent-color);
 }
-
+.active-page {
+    color: var(--accent-color);
+}
 /*Connection */
 .connection a{
-    color: var(--black);
+    color: var(--dark-background);
     text-decoration: none;
 }
 .connection a:hover, .connection a:focus {
@@ -131,12 +131,26 @@ text-decoration: none;
    color: #2196F3
   }
 
-  .aside {
-      color: var(--white);
-      text-decoration: none;
+  .aside-adress {
+    line-height: 1.7;
+    color: #FFFFFF;
+    text-decoration: none;
   }
 .aside-contacts {
 color: rgba(255, 255, 255, 0.6);
 line-height: 1.7;
+}
+
+/* ПОРТФОЛИО*/
+.filter-button {
+ color: var(--black);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;   
+}
+.filter-button button:hover,
+.filter-button button:focus {
+    color: var(--white);
+    background-color: var(--accent-color);
 }
 
