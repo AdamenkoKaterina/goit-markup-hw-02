@@ -16,30 +16,41 @@
 body {
     background-color: #fff;
     color: #757575;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
+    font-style:normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
 } 
  .logo {
      color: black;
-     font-family: Raleway;
-     font-size: 26px;
-     line-height: 30,52px;
-      }  
-.logo1  {
+     font-family: Raleway, cursive, sans-serif;
+     font-weight: 700;
+font-size: 26px;
+line-height: 1.19; 
+letter-spacing: 0.03em;     }  
+     .logo2  {
     color: #2196F3
 }
-.list {
+ul {
     list-style: none;
 }
 
 /* Site-nav */
 .site-nav a{
- color:var(--black)   
+ color:var(--black); 
+ font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;  
 }
 .site-nav a:hover,
 .site-nav a:focus {
    color: var(--accent-color);
 }
-
+.active-page {
+    color: var(--accent-color);
+}
 /*Connection */
 .connection a{
     color: var(--black)
@@ -47,16 +58,49 @@ body {
 .connection a:hover, .connection a:focus {
     color: var(--accent-color);
 }
-.button {
-    color: var(--white);
-    background-color: var(--accent-color);
-}
+
 /* Title */
 .title h1{
     background-color: var(--dark-background);
     color: var(--white);
+    font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
 }
-.section-title {
-    color: var(--black)
+.button {
+    font-family: inherit;
+    color: var(--white);
+    background-color: var(--accent-color);
+    font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+align-items: center;
+display: flex;
+text-align: center;
+letter-spacing: 0.06em;
 }
+/*Принципы*/ /*Чем мы занимаемся*/ 
+.title h2 {
+  color: var(--black);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  }
+ .title h3 {
+     color: var(--black);
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 1.14;
+ }
+
+/*Наша команда*/
+ .subtitle-people {
+     color: var(--black);
+    font-weight: 500;
+    font-size: 16px;
+line-height: 1.19;
+ }
 /* Footer */
