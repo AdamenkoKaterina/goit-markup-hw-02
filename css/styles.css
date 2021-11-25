@@ -115,8 +115,7 @@ text-align: center;
     text-align: center;
     }
 /* Footer */
-.footer-box {
-    color: var(--white);
+footer {
     background-color: var(--dark-background);
 }
 .logo-footer {
@@ -152,5 +151,17 @@ line-height: 1.6;
 .filter-button button:focus {
     color: var(--white);
     background-color: var(--accent-color);
+}
+.item-list {
+color: var(--black);
+    font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+.item-text {
+    color: var(--text-color);
+    font-size: 16px;
+line-height: 1.9;
 }
 
