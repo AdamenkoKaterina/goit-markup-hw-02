@@ -116,6 +116,7 @@ text-align: center;
     }
 /* Footer */
 footer {
+    
     background-color: var(--dark-background);
 }
 .logo-footer {
