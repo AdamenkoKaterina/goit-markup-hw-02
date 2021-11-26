@@ -12,6 +12,7 @@
     --white: #FFFFFF;
     --dark-background: #2F303A;
     --light-background: #F5F4FA;
+   
 }
 body {
     background-color: #fff;
@@ -56,15 +57,22 @@ text-decoration: none;
 }
 /*Connection */
 .connection a{
-    color: var(--dark-background);
-    text-decoration: none;
+    font-family: Roboto;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--text-color);
+text-decoration: none;
 }
-.connection a:hover, .connection a:focus {
+.connection a:hover, 
+.connection a:focus {
     color: var(--accent-color);
 }
 
 /* Title */
 .main-title {
+    text-transform: uppercase;
     background-color: var(--dark-background);
     color: var(--white);
     font-weight: 900;
@@ -74,6 +82,7 @@ text-align: center;
 letter-spacing: 0.06em;
 }
 .button {
+    cursor: pointer;
     font-family: inherit;
     color: var(--white);
     background-color: var(--accent-color);
@@ -94,6 +103,7 @@ letter-spacing: 0.06em;
   text-align: center;
   }
  .subtitle {
+    text-transform: uppercase;
     color: var(--black);
     font-weight: 700;
     font-size: 14px;
@@ -116,8 +126,7 @@ text-align: center;
     }
 /* Footer */
 footer {
-    
-    background-color: var(--dark-background);
+        background-color: var(--dark-background);
 }
 .logo-footer {
     color: white;
@@ -130,28 +139,35 @@ text-decoration: none;
     .logo-footer2  {
    color: #2196F3
   }
-
-  .aside-adress {
-    line-height: 1.7;
-    color: #FFFFFF;
-    text-decoration: none;
-  }
-.aside-contacts {
-color: rgba(255, 255, 255, 0.6);
-line-height: 1.7;
+  .contacts-addres {
+    color: var(--white);
+    text-decoration: none; 
+    font-style: normal;
 }
+  
+.contacts-mail, 
+.contacts-tel {
+   color: rgba(255, 255, 255, 0.6); 
+   text-decoration: none; 
+   font-style: normal;
+}
+  
 
 /* ПОРТФОЛИО*/
+
 .filter-button {
+ cursor: pointer;
  color: var(--black);
+ background: var(--light-background);
 font-weight: 500;
 font-size: 16px;
-line-height: 1.6;   
+line-height: 1.6; 
+text-align: center;
 }
-.filter-button button:hover,
-.filter-button button:focus {
+button:hover,
+button:focus {
     color: var(--white);
-    background-color: var(--accent-color);
+    background: var(--accent-color);
 }
 .item-list {
 color: var(--black);

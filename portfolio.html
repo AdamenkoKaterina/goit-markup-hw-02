@@ -5,33 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header class="page-header">
-        <nav>
-            <a href="" class="logo">
-                <span class="logo2">Web</span>Studio
-            </a>
-       <ul class="site-nav">
-           <li><a href="./stydio.html">Студия</a></li>
-           <li><a href="./portfolio.html">Портфолио</a></li>
-           <li><a href="">Контакты</a></li>
-       </ul>
-        </nav>
-       <ul class="connection">
-           <li><a href="">info@devstudio.com</a></li>
-           <li><a href="">+38 096 111 11 11</a></li>
-       </ul>
-    </header>
+   <header class="page-header">
+       <nav>
+       <a href="" class="logo">
+        <span class="logo2">Web</span>Studio
+       </a>
+      <ul class="site-nav">
+          <li><a href="./index.html">Студия</a></li>
+          <li><a href="./portfolio.html">Портфолио</a></li>
+          <li><a href="">Контакты</a></li>
+      </ul>
+       </nav>
+      <ul class="connection" >
+          <li><a href="" class="connection-email" >info@devstudio.com</a></li>
+          <li><a href="" class="connection-tel">+38 096 111 11 11</a></li>
+      </ul>
+   </header> 
 <main>
     <h1>Наши работы</h1>
-    <ul class="">
-        <li class="filter-button"><button type="button">Все</button></li>
-        <li class="filter-button"><button type="button">Веб-сайты</button></li>
-        <li class="filter-button"><button type="button">Приложения</button></li>
-        <li class="filter-button"><button type="button">Дизайн</button></li>
-        <li class="filter-button"><button type="button">Маркетинг</button></li>
+    <ul class="filter">
+        <li><button type="button" class="filter-button">Все</button></li>
+        <li><button type="button" class="filter-button">Веб-сайты</button></li>
+        <li><button type="button" class="filter-button">Приложения</button></li>
+        <li><button type="button" class="filter-button">Дизайн</button></li>
+        <li><button type="button" class="filter-button">Маркетинг</button></li>
     </ul>
     <ul>
         <li class="item">
@@ -81,15 +84,15 @@
         </li>
     </ul>
 </main>
-<footer>
+<footer class="page-footer">
     <a href="" class="logo-footer">
         <span class="logo-footer2">Web</span>Studio
        </a>
-  <address>
-        <ul class="aside">
-            <li class="aside-adress"><a href="">г.Киев,пр-тЛесиУкраинки,26</a></li>
-            <li class="aside-contacts"><a href="">info@example.com</a></li>
-            <li class="aside-contacts"><a href="">+380991111111</a></li>
+  <address class="contacts">
+        <ul class="list-contacts">
+            <li><a href="" class="contacts-addres">г.Киев,пр-тЛесиУкраинки,26</a></li>
+            <li><a href="mailto:info@example.com" class="contacts-mail">info@example.com</a></li>
+            <li><a href="tel:+380991111111" class="contacts-tel">+380991111111</a></li>
         </ul>
     </address>
 </footer>
