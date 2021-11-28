@@ -156,6 +156,7 @@ text-decoration: none;
 /* ПОРТФОЛИО*/
 
 .filter-button {
+font-family: Roboto;   
  cursor: pointer;
  color: var(--black);
  background: var(--light-background);
@@ -163,6 +164,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.6; 
 text-align: center;
+letter-spacing: 0.03em;
 }
 button:hover,
 button:focus {
